@@ -1,0 +1,29 @@
+cat > .gitignore << 'EOF'
+# Maven / Build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Uploads (ne verziókövesd a feltöltött képeket)
+uploads/
+
+# Spring
+application.properties
+application.yml
+
+# Node/other accidentally
+node_modules/
+dist/
+EOF
